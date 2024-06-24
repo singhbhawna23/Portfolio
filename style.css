@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #eeecb6;
+}
+
+header {
+    background: #07443e;
+    color: #fdfcfc;
+    padding: 1rem 0;
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff8f8;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 1rem;
+    text-align: left;
+}
+
+section h2 {
+    border-bottom: 2px solid #343536;
+    padding-bottom: 0.5rem;
+}
+
+#about, #skills, #projects, #resume, #contact {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.project {
+    background: #f4f4f4;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-left: 5px solid #444545;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 100;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #555;
+}
